@@ -2,7 +2,7 @@ import React from 'react';
 import { SiGooglechrome } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import './Header.css'; 
-import logo from '../assets/images/chrome.png';
+import logo from '../assets/Images/chrome.png';
 
 
 
