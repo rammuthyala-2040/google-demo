@@ -1,0 +1,38 @@
+/* Style for image hover effect */
+.hover-effect {
+    width: 100%;
+    max-width: 600px; /* Larger image size */
+    border: 4px solid transparent; /* Slightly thicker border */
+    transition: transform 0.5s ease, border-color 0.5s ease; /* Smooth transition */
+    cursor: pointer;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.15); /* Bigger scale on hover */
+    border-color: #007bff; /* Blue border on hover */
+  }
+  
+  .large-image {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Styling for layout */
+  .left {
+    margin: 20px auto;
+    max-width: 800px; /* Increase max width */
+  }
+  
+  .d-flex {
+    gap: 40px; /* Larger gap between sections */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+.make{
+  font-size: 60px;
+}
+.safe{
+  font-size: 60px;
+}

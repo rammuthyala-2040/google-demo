@@ -1,0 +1,20 @@
+/* Custom hover effect */
+.nav-link.hover-effect {
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-link.hover-effect:hover {
+    color: #f1d561; 
+    border-bottom: 2px solid #87c9e0eb;
+  }
+  
+  /* Adjust icon size for smaller screens */
+  .icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
